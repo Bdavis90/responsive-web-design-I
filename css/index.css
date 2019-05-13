@@ -64,10 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-@media( max-width: 800px ){
-    
-}
-
 * {
 	box-sizing: border-box;
 }
@@ -129,10 +125,12 @@ nav {
         width: 500px;
         border-top: 1px solid black;
         text-align: center;
+        margin-top: 10px;
+        padding-top: 13px;
     }
     .last-link {
         border-bottom: 1px solid black;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 }
 
@@ -154,7 +152,8 @@ h1 {
 
 @media( max-width: 500px ){
     h1 {
-        
+        padding-left: 100px;
+        width: 379px;
     }
 }
 
@@ -180,7 +179,8 @@ header {
 
 @media( max-width: 500px ){
     .logo {
-        position: inherit;
+        top: 10px;
+        left: 160px;
         
     }
 }
@@ -211,6 +211,13 @@ button {
     }
 }
 
+@media( max-width: 500px ){
+    button {
+        left: 140px;
+    }
+}
+
+
 
 .first-section {
     border-top: 1px solid black;
@@ -235,9 +242,15 @@ button {
 @media( max-width: 800px ){
     .first-info {
         width: 390px;
-        
+        padding-top: 20px;
     }
 }
+
+@media( max-width: 500px ){
+    .first-info {
+        width: 470px;
+        
+    }
 
 .middle-img {
     width: 960px;
@@ -246,6 +259,7 @@ button {
 @media( max-width: 800px ){
     .middle-img {
         width: 780px;
+        
     }   
 }
 
@@ -268,9 +282,15 @@ width: 311px;
 }
 
 @media( max-width: 800px ){
+    .first-info {
+        width: 390px;
+        padding-top: 20px;
+    }
+}
+
+@media( max-width: 500px ){
     .second-info {
-       width: 256px;
-       padding-left: 20px;
+       width: 486px;
     }
 }
 
